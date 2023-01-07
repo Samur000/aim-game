@@ -17,11 +17,9 @@ a {
   color: rgb(192, 192, 192);
   text-decoration: none;
 }
-
 a:hover {
   color: #16d9e3;
 }
-
 .start {
   font-size: 1.5rem;
 }
@@ -99,4 +97,56 @@ h1 {
   position: absolute;
   border-radius: 50%;
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+  .board{
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .board{
+    width: 400px;
+    height: 400px;
+  }
+  h1 {
+    line-height: 1.4;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .board{
+    width: 350px;
+    height: 350px;
+  }
+  h1 {
+    line-height: 1.4;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .board{
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .board{
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .board{
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .board{
+    width: 150px;
+    height: 150px;
+  }
 }
